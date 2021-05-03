@@ -1,8 +1,12 @@
 {
   "About": "About",
   "Policy": "Policy",
-  "Mission": "Mission",
-  "Product": "Product",
+  "Laws": "Laws",
+  "Job law": "Job law",
+  "Successions": "Successions",
+  "Divorce": "Divorce",
+  "Traffic accidents": "Traffic accidents",
+  "FAQ": "FAQ",
   "Tell us everything": "Tell us everything",
   "Contact": "Contact",
   "Do you have any question regarding the project? Feel free to reach out.": "Do you have any question regarding the project? Feel free to reach out.",
@@ -19,10 +23,10 @@
   "Learn More": "Learn More",
   "Get Started": "Get Started",
   "Submit": "Submit",
-  "Message" : "Message",
+  "Message": "Message",
   "Your Message": "Your Message",
-  "Name" : "Message",
+  "Name": "Message",
   "Your Name": "Your Name",
-  "Email" : "Message",
+  "Email": "Message",
   "Your Email": "Your Message"
 }

@@ -1,5 +1,5 @@
 import { useState, Fragment, lazy } from "react";
-import { Row, Col, Drawer } from "antd";
+import { Row, Col, Drawer, Dropdown, Menu } from "antd";
 import { CSSTransition } from "react-transition-group";
 import { withTranslation } from "react-i18next";
 
@@ -22,6 +22,8 @@ const Header = ({ t }) => {
   };
 
   const MenuItem = () => {
+
+
     const scrollTo = (id) => {
       const element = document.getElementById(id);
       element.scrollIntoView({
@@ -29,19 +31,47 @@ const Header = ({ t }) => {
       });
       setVisibility(false);
     };
+
+    const dropdown = (
+      <Menu>
+        <Menu.Item>
+          <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
+            <S.Span>{t("Job law")}</S.Span>
+          </S.CustomNavLinkSmall>
+        </Menu.Item>
+        <Menu.Item>
+          <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
+            <S.Span>{t("Successions")}</S.Span>
+          </S.CustomNavLinkSmall>
+        </Menu.Item>
+        <Menu.Item>
+          <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
+            <S.Span>{t("Divorce")}</S.Span>
+          </S.CustomNavLinkSmall>
+        </Menu.Item>
+        <Menu.Item>
+          <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
+            <S.Span>{t("Traffic accidents")}</S.Span>
+          </S.CustomNavLinkSmall>
+        </Menu.Item>
+      </Menu>
+    );
+
     return (
       <Fragment>
         <S.CustomNavLinkSmall onClick={() => scrollTo("about")}>
           <S.Span>{t("About")}</S.Span>
         </S.CustomNavLinkSmall>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <S.Span>{t("Mission")}</S.Span>
+        <Dropdown overlay={dropdown}>
+        <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
+          <S.Span>{t("Laws")}</S.Span>
         </S.CustomNavLinkSmall>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <S.Span>{t("Product")}</S.Span>
+        </Dropdown>
+        <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
+          <S.Span>{t("FAQ")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall
-          style={{ width: "180px" }}
+          style={{ width: "150px" }}
           onClick={() => scrollTo("contact")}
         >
           <S.Span>
