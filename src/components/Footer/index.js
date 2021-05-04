@@ -23,7 +23,7 @@ const Footer = ({ t }) => {
         key={src}
         aria-label={src}
       >
-        <SvgIcon src={src} width="25px" height="25px" />
+        <SvgIcon src={src} width="50px" height="50px" />
       </a>
     );
   };
@@ -100,6 +100,9 @@ const Footer = ({ t }) => {
           </Container>
         </S.Extra>
       </Fade>
+      <S.Whatsapp href="https://api.whatsapp.com/send?phone=541132536757&text=Hola Pro Trabajadores" target="_blank">
+        <i className="fa fa-whatsapp whatsapp-icon" />
+      </S.Whatsapp>
     </Fragment>
   );
 };

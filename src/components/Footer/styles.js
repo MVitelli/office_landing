@@ -109,13 +109,16 @@ export const Empty = styled.div`
 
 export const FooterContainer = styled.div`
   max-width: 510px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
 
   @media screen and (max-width: 414px) {
     padding: 2rem 0;
     padding-right: 50%;
+  }
+
+  a {
+    padding-right:20px;
   }
 
   div {
@@ -167,4 +170,18 @@ export const LangSelect = styled.select`
   border: none;
   font-size: 1rem;
   background: rgb(249, 250, 252);
+`;
+
+export const Whatsapp = styled.a`
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:40px;
+  z-index:100;
 `;
