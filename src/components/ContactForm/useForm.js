@@ -17,8 +17,7 @@ const useForm = (validate) => {
   const handleSubmit = (event) => {
     event.preventDefault();
     setErrors(validate(values));
-    // Your url for API
-    const url = "";
+    const url = process.env.REACT_APP_MAIL_URL;
     if (Object.keys(values).length === 3) {
       axios
         .post(url, {

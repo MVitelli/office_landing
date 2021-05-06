@@ -64,7 +64,7 @@ const Header = ({ t }) => {
         </S.CustomNavLinkSmall>
         <Dropdown overlay={dropdown}>
         <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
-          <S.Span>{t("Laws")}</S.Span>
+          <S.Span>{t("Services")}</S.Span>
         </S.CustomNavLinkSmall>
         </Dropdown>
         <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
