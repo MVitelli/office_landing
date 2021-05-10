@@ -13,6 +13,20 @@ const Header = ({ t }) => {
   const [isSmallScreen] = useState(false);
   const [visible, setVisibility] = useState(false);
 
+  const SocialLink = ({ href, src }) => {
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        key={src}
+        aria-label={src}
+      >
+        <SvgIcon src={src} width="40px" height="40px" />
+      </a>
+    );
+  };
+
   const showDrawer = () => {
     setVisibility(!visible);
   };
@@ -23,7 +37,6 @@ const Header = ({ t }) => {
 
   const MenuItem = () => {
 
-
     const scrollTo = (id) => {
       const element = document.getElementById(id);
       element.scrollIntoView({
@@ -31,6 +44,7 @@ const Header = ({ t }) => {
       });
       setVisibility(false);
     };
+
 
     const dropdown = (
       <Menu>
@@ -59,13 +73,14 @@ const Header = ({ t }) => {
 
     return (
       <Fragment>
+
         <S.CustomNavLinkSmall onClick={() => scrollTo("about")}>
           <S.Span>{t("About")}</S.Span>
         </S.CustomNavLinkSmall>
         <Dropdown overlay={dropdown}>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
-          <S.Span>{t("Services")}</S.Span>
-        </S.CustomNavLinkSmall>
+          <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
+            <S.Span>{t("Services")}</S.Span>
+          </S.CustomNavLinkSmall>
         </Dropdown>
         <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
           <S.Span>{t("FAQ")}</S.Span>
@@ -85,10 +100,26 @@ const Header = ({ t }) => {
   return (
     <S.Header>
       <S.Container>
-        <Row type="flex" justify="space-between" gutter={20}>
-          <S.LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" />
-          </S.LogoContainer>
+        <Row type="flex" align="middle" justify="space-between" gutter={20}>
+          <S.HeaderContainer>
+            <S.LogoContainer to="/" aria-label="homepage">
+              <SvgIcon
+                src="logo.svg"
+              />
+            </S.LogoContainer>
+            <SocialLink
+              href="mailto:protrabajadoresestudio@gmail.com"
+              src="mail.svg"
+            />
+            <SocialLink
+              href="https://www.linkedin.com/in/facundo-chumba-362ba4a9/"
+              src="linkedin.svg"
+            />
+            <SocialLink
+              href="https://www.instagram.com/protrabajadores/"
+              src="instagram.svg"
+            />
+          </S.HeaderContainer>
           <S.NotHidden>
             <MenuItem />
           </S.NotHidden>

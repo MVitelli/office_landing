@@ -97,3 +97,30 @@ export const Outline = styled(MenuOutlined)`
 export const Span = styled.span`
   cursor: pointer;
 `;
+
+export const HeaderContainer = styled.div`
+  max-width: 510px;
+  display: flex;
+  padding-top: 1rem;
+  align-items:center;
+
+  @media screen and (max-width: 414px) {
+    padding: 2rem 0;
+    padding-right: 50%;
+  }
+
+  a {
+    padding-right:20px;
+  }
+
+  div {
+    cursor: pointer;
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+
+    &:hover {
+      fill: rgb(255, 130, 92);
+    }
+  }
+`;

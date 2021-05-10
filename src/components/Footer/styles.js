@@ -43,13 +43,13 @@ export const Target = styled.a`
 
 export const Extra = styled.section`
   background: rgb(249, 250, 252);
-  position: relative;
   width: 100%;
   padding-right: 25px;
   padding-left: 25px;
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 2rem;
+  position: relative;
 `;
 
 export const LogoContainer = styled.div`
