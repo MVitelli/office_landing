@@ -49,22 +49,22 @@ const Header = ({ t }) => {
     const dropdown = (
       <Menu>
         <Menu.Item>
-          <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
+          <S.CustomNavLinkSmall onClick={() => scrollTo("jobLaw")}>
             <S.Span>{t("Job law")}</S.Span>
           </S.CustomNavLinkSmall>
         </Menu.Item>
         <Menu.Item>
-          <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
+          <S.CustomNavLinkSmall onClick={() => scrollTo("successions")}>
             <S.Span>{t("Successions")}</S.Span>
           </S.CustomNavLinkSmall>
         </Menu.Item>
         <Menu.Item>
-          <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
+          <S.CustomNavLinkSmall onClick={() => scrollTo("divorce")}>
             <S.Span>{t("Divorce")}</S.Span>
           </S.CustomNavLinkSmall>
         </Menu.Item>
         <Menu.Item>
-          <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
+          <S.CustomNavLinkSmall onClick={() => scrollTo("trafficAccidents")}>
             <S.Span>{t("Traffic accidents")}</S.Span>
           </S.CustomNavLinkSmall>
         </Menu.Item>
@@ -78,11 +78,11 @@ const Header = ({ t }) => {
           <S.Span>{t("About")}</S.Span>
         </S.CustomNavLinkSmall>
         <Dropdown overlay={dropdown}>
-          <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
+          <S.CustomNavLinkSmall onClick={() => scrollTo("services")}>
             <S.Span>{t("Services")}</S.Span>
           </S.CustomNavLinkSmall>
         </Dropdown>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("")}>
+        <S.CustomNavLinkSmall onClick={() => scrollTo("FAQ")}>
           <S.Span>{t("FAQ")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall
