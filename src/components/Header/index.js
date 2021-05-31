@@ -104,7 +104,8 @@ const Header = ({ t }) => {
           <S.HeaderContainer>
             <S.LogoContainer to="/" aria-label="homepage">
               <SvgIcon
-                src="logo.svg"
+                src="logo-pro.png"
+                width="95%"
               />
             </S.LogoContainer>
             <SocialLink
