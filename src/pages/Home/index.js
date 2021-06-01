@@ -6,6 +6,7 @@ import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import DivorceContent from "../../content/DivorceContent.json";
 
 const ContactFrom = lazy(() => import("../../components/ContactForm"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
@@ -22,6 +23,7 @@ const Home = () => {
         first="true"
         title={IntroContent.title}
         content={IntroContent.text}
+        section={IntroContent.section}
         button={IntroContent.button}
         icon="main-image.png"
         id="about"
@@ -38,14 +40,14 @@ const Home = () => {
         content={AboutContent.text}
         section={AboutContent.section}
         icon="second-image.png"
-        id="jobLaw"
+        id="FAQ"
       />
       <ContentBlock
         type="right"
         title={MissionContent.title}
         content={MissionContent.text}
         icon="product-launch.svg"
-        id="successions"
+        id="job_law"
       />
 
       <ContentBlock
@@ -58,17 +60,10 @@ const Home = () => {
 
       <ContentBlock
         type="right"
-        title={MissionContent.title}
-        content={MissionContent.text}
+        title={DivorceContent.title}
+        content={DivorceContent.text}
         icon="product-launch.svg"
-        id="trafficAccidents"
-      />
-
-      <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
-        id="FAQ"
+        id="successions"
       />
 
       <ContactFrom
