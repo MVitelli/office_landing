@@ -47,7 +47,7 @@ const Home = () => {
         title={MissionContent.title}
         content={MissionContent.text}
         icon="product-launch.svg"
-        id="job_law"
+        id="jobLaw"
       />
 
       <ContentBlock
@@ -55,7 +55,7 @@ const Home = () => {
         title={ProductContent.title}
         content={ProductContent.text}
         icon="waving.svg"
-        id="divorce"
+        id="successions"
       />
 
       <ContentBlock
@@ -63,7 +63,7 @@ const Home = () => {
         title={DivorceContent.title}
         content={DivorceContent.text}
         icon="product-launch.svg"
-        id="successions"
+        id="divorce"
       />
 
       <ContactFrom
