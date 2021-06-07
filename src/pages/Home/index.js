@@ -2,12 +2,14 @@ import { lazy } from "react";
 
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
-import AboutContent from "../../content/AboutContent.json";
+import JobLawContent from "../../content/JobLawContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
 import DivorceContent from "../../content/DivorceContent.json";
 
+
+const TopicContainer = lazy(() => import("../../components/TopicBlock"));
 const ContactFrom = lazy(() => import("../../components/ContactForm"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -34,14 +36,10 @@ const Home = () => {
         button={MiddleBlockContent.button}
         id="services"
       />
-      <ContentBlock
-        type="left"
-        title={AboutContent.title}
-        content={AboutContent.text}
-        section={AboutContent.section}
-        icon="second-image.png"
-        id="FAQ"
+      <TopicContainer
+        content={JobLawContent}
       />
+
       <ContentBlock
         type="right"
         title={MissionContent.title}

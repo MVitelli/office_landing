@@ -7,7 +7,7 @@ import Button from "../../../common/Button";
 
 import * as S from "./styles";
 
-const RightBlock = ({ title, content, button, icon, t, id }) => {
+const RightBlock = ({ title, content, button, icon, t, id, style }) => {
   const scrollTo = (id) => {
     const element = document.getElementById(id);
     element.scrollIntoView({
@@ -15,7 +15,7 @@ const RightBlock = ({ title, content, button, icon, t, id }) => {
     });
   };
   return (
-    <S.RightBlockContainer>
+    <S.RightBlockContainer style={style}>
       <Row type="flex" justify="space-between" align="middle" id={id}>
         <Col lg={11} md={11} sm={11} xs={24}>
           <Slide left>
