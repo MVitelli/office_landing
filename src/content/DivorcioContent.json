@@ -1,0 +1,23 @@
+{
+    "title": "Divorcio",
+    "content": "La evolución de nuestra legislación ha permitido que actualmente alcance con la voluntad de un sólo cónyuge para que el juez proceda a decretar el divorcio. Divorcio por presentación unilateral: En este proceso uno de los cónyuges presenta la demanda de divorcio al juez. La misma debe ir acompañada de una propuesta integral acerca de los efectos del divorcio que incluya: División de bienes, Cuidado de hijos, Quien quedará en el hogar conyugal, Y si corresponden alimentos. La demanda será notificada al otro cónyuge, quien al contestarla podrá proponer modificaciones a la propuesta. Si los cónyuges no se ponen de acuerdo, el juez procederá a dictar la sentencia de divorcio y los demás asuntos deberán ser tratados por expediente separado. Divorcio por presentación conjunta: Es un trámite mucho más ágil y rápido donde los cónyuges se ponen de acuerdo sobre los efectos del divorcio y suscriben la misma demanda y la presentan ante el juez.",
+    "faq": [
+        {
+            "question": "¿Qué necesito para iniciar el divorcio?",
+            "answer": "Necesitas la partida de matrimonio, no hace falta que sea actualizada, y copia de tu DNI. "
+        },
+        {
+            "question": "¿Cuánto demora el trámite de divorcio?",
+            "answer": "Actualmente es un trámite rápido que puede estar finalizado en uno o dos meses aproximadamente. Por supuesto que el tiempo es estimativo ya que se depende del funcionamiento del Juzgado, y oficinas públicas. "
+        },
+        {
+            "question": "¿Qué es el divorcio por presentación conjunta?",
+            "answer": "Es el caso en que los cónyuges se ponen de acuerdo en los términos (distribución de bienes si los hay, cuidado de hijos si los hay, compensaciones económicas, etc.) y presentan la petición ante un Juez. Cada uno debe estar representado por un abogado. Este trámite es mucho más ágil y rápido. Mi cónyuge no quiere divorciarse, "
+        },
+        {
+            "question": "¿Puedo hacerlo igual?",
+            "answer": "Sí, Basta con la petición de uno para que el Juez conceda el divorcio."
+        }
+    ],
+    "tags": []
+}

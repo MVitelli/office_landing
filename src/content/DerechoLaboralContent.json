@@ -1,0 +1,27 @@
+{
+    "title": "Derecho Laboral",
+    "content": "Creemos que el trabajador merece una protección especial, es por eso que si: estás trabajando en negro, si te pagan parte de tu sueldo en negro, si te despidieron o tuviste un accidente de trabajo, contactanos para hacer valer tus derechos. TRABAJO NO REGISTRADO: Trabajar “en negro” genera graves lesiones a tus derechos. No contas con Obra Social, no son depositados mes a mes tus aportes en ANSES y en caso de sufrir un accidente de trabajo no contas con una ART que te atienda e indemnice en caso que te quede incapacidad laboral. Nosotros te guiamos desde el inicio para que puedas conseguir la indemnización que te corresponde. Es importante que sepas que el trabajo en negro está expresamente prohibido por lo cual te da la posibilidad de reclamar importantes multas a tu empleador, además de las indemnizaciones laborales.",
+    "faq": [
+        {
+            "question": "Estoy trabajando en Negro, ¿Qué puedo hacer?",
+            "answer": "Podes intimar a tu empleador a que te registre correctamente. Si no lo hace, podes reclamar indemnizaciones y multas."
+        },
+        {
+            "question": "Me pagan mitad en Blanco y mitad en Negro, ¿Puedo reclamar?",
+            "answer": "Si, todo lo que se cobra debe estar en Blanco. Podes intimar a tu empleador a que corrija tu recibo. En caso que no lo haga, podes reclamar indemnizaciones y multas."
+        },
+        {
+            "question": "Me despidieron hace varios meses, ¿Estoy a tiempo de reclamar?",
+            "answer": "Desde el despido contas con dos años para iniciar el reclamo."
+        },
+        {
+            "question": "¿Me puedo considerar despedido si no me pagan el sueldo?",
+            "answer": "Si, pagar el sueldo es la obligación principal del empleador, la falta de ello hace que el contrato de trabajo no pueda continuar."
+        },
+        {
+            "question": "Me accidenté en el trabajo y me empleador no hace la denuncia en la ART, ¿Puedo hacer algo?",
+            "answer": "Si, podes hacer la denuncia del accidente vos mediante un telegrama."
+        }
+    ],
+    "tags": []
+}
