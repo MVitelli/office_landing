@@ -1,36 +1,33 @@
 [
-    {
-      "title": "Accidentes de tránsito",
-      "text": ""
-    },
-    {
-      "title": "Preguntas Frecuentes",
-      "section": [
-        {
-          "title": "Estoy trabajando en negro, ¿Qué puedo hacer?",
-          "content": "Podes intimar a tu empleador a que te registre correctamente.  Si no lo hace, podes reclamar indemnizaciones y multas.",
-          "icon": "notes.svg"
-        },
-        {
-          "title": "Me pagan mitad en blanco y mitad en negro, ¿Puedo reclamar?",
-          "content": "Sí, todo lo que se cobra debe estar en blanco. Podés intimar a tu empleador a que corrija tu recibo. En caso que no lo haga, podés reclamar indemnizaciones y multas.",
-          "icon": "notes.svg"
-        },
-        {
-          "title": "Me despidieron hace varios meses, ¿Estoy a tiempo de reclamar?",
-          "content": "Desde el despido contás con dos años para iniciar el reclamo.",
-          "icon": "notes.svg"
-        },
-        {
-          "title": "¿Me puedo considerar despedido si no me pagan el sueldo?",
-          "content": "Sí, pagar el sueldo es la obligación principal del empleador, la falta de ello hace que el contrato de trabajo no pueda continuar.",
-          "icon": "notes.svg"
-        },
-        {
-          "title": "Me accidenté en el trabajo y mi empleador no hace la denuncia en la ART, ¿Puedo hacer algo?",
-          "content": "Si, podés hacer la denuncia del accidente vos mediante un telegrama.",
-          "icon": "notes.svg"
-        }
-      ]
-    }
-  ]
+  {
+    "title": "Accidentes de tránsito",
+    "text": "Si sufriste un accidente de tránsito contáctanos para que te ayudemos a conseguir la indemnización que te corresponde. Te explicamos los pasos a seguir: Entrevista preliminar, Audiencia previa, Juicio de accidente de tránsito.",
+    "type": "right",
+    "id": "accidents",
+    "icon": "accidents-image.png",
+    "link": "/temas/accidentes",
+    "button": [
+      {
+        "title": "Ver más"
+      }
+    ]
+  },
+  {
+    "title": "Preguntas Frecuentes",
+    "type": "left",
+    "id": "accidentsFAQ",
+    "icon": "accidents-image.png",
+    "section": [
+      {
+        "title": "Me chocaron ¿Qué necesito para iniciar el reclamo?",
+        "content": "Precisas conseguir dos presupuestos, fotos del vehículo donde se vean los daños, Denuncia del siniestro, Copia de tu licencia de conducir y DNI.  Depende el caso particular puede que se necesite otra documentación.",
+        "icon": "notes.svg"
+      },
+      {
+        "title": "¿Qué debo hacer si tengo un accidente de tránsito?",
+        "content": "Tenes que hacer la denuncia ante tu seguro, obtener los datos del vehículo y la persona que te embistió y asegurarte que también haga la denuncia en su seguro.  Es muy importante que consigas testigos del hecho.  Si arreglas el auto siempre pedí factura para poder reclamar los daños luego.",
+        "icon": "notes.svg"
+      }
+    ]
+  }
+]

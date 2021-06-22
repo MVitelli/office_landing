@@ -1,34 +1,41 @@
 [
     {
         "title": "Sucesiones",
-        "text": ""
+        "text": "La sucesión es un trámite especial que tiene una carga emocional extra, por eso creemos que es de vital importancia brindarte un amplio asesoramiento y acompañarte durante todo el proceso. Consta de los siguientes pasos: Entrevista previa, Inicio del juicio, Declaratoria de herederos, Inscripción en los registros correspondientes.",
+        "type": "right",
+        "id": "successions",
+        "icon": "successions-image.png",
+        "link": "/temas/sucesiones",
+        "button": [
+            {
+                "title": "Ver más"
+            }
+        ]
     },
     {
         "title": "Preguntas Frecuentes",
+        "type": "left",
+        "id": "succesionsFAQ",
+        "icon": "successions-image.png",
         "section": [
             {
-                "title": "Estoy trabajando en negro, ¿Qué puedo hacer?",
-                "content": "Podes intimar a tu empleador a que te registre correctamente.  Si no lo hace, podes reclamar indemnizaciones y multas.",
+                "title": "¿Qué necesito para iniciar una sucesión?",
+                "content": "Se puede iniciar con la partida de defunción y al menos uno de los herederos tiene que acreditar el parentesco, con la partida de nacimiento si es hijo/a de la persona fallecida o con la partida de matrimonio si es cónyuge.",
                 "icon": "notes.svg"
             },
             {
-                "title": "Me pagan mitad en blanco y mitad en negro, ¿Puedo reclamar?",
-                "content": "Sí, todo lo que se cobra debe estar en blanco. Podés intimar a tu empleador a que corrija tu recibo. En caso que no lo haga, podés reclamar indemnizaciones y multas.",
+                "title": "¿Cuánto tarda una sucesión?",
+                "content": "Puede terminarse en seis meses aproximadamente si no se presenta nada extraordinario.  Por supuesto es estimativo ya que depende del caso en particular y del desempeño del Juzgado.",
                 "icon": "notes.svg"
             },
             {
-                "title": "Me despidieron hace varios meses, ¿Estoy a tiempo de reclamar?",
-                "content": "Desde el despido contás con dos años para iniciar el reclamo.",
+                "title": "¿Cuánto sale tramitar una sucesión?",
+                "content": "Depende de los bienes a suceder.  El gasto más importante es el de la tasa de justicia que es: En C.A.B.A. de un 1,5% y en Provincia de Buenos Aires un 2,5% de la valuación fiscal del bien, siempre sobre la parte que se transmite. A esto se le suman honorarios.",
                 "icon": "notes.svg"
             },
             {
-                "title": "¿Me puedo considerar despedido si no me pagan el sueldo?",
-                "content": "Sí, pagar el sueldo es la obligación principal del empleador, la falta de ello hace que el contrato de trabajo no pueda continuar.",
-                "icon": "notes.svg"
-            },
-            {
-                "title": "Me accidenté en el trabajo y mi empleador no hace la denuncia en la ART, ¿Puedo hacer algo?",
-                "content": "Si, podés hacer la denuncia del accidente vos mediante un telegrama.",
+                "title": "¿Debo hacer una sucesión para poder vender el bien?",
+                "content": "Sí, ya que es necesario cambiar la titularidad en el Registro que corresponda.",
                 "icon": "notes.svg"
             }
         ]

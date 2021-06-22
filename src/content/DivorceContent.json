@@ -1,34 +1,41 @@
 [
     {
       "title": "Divorcio",
-      "text": ""
+      "text": "La evolución de nuestra legislación ha permitido que actualmente alcance con la voluntad de un sólo cónyuge para que el juez proceda a decretar el divorcio. El proceso puede darse de dos formas: Divorcio por presenstación unilateral y Divorcio por presentación conjunta.",
+      "type": "right",
+      "id": "divorce",
+      "icon": "divorce-image.png",
+      "link": "/temas/divorcio",
+      "button": [
+          {
+              "title": "Ver más"
+          }
+      ]
     },
     {
       "title": "Preguntas Frecuentes",
+      "type": "left",
+      "id": "divorceFAQ",
+      "icon": "divorce-image.png",
       "section": [
         {
-          "title": "Estoy trabajando en negro, ¿Qué puedo hacer?",
-          "content": "Podes intimar a tu empleador a que te registre correctamente.  Si no lo hace, podes reclamar indemnizaciones y multas.",
+          "title": " ¿Qué necesito para iniciar el divorcio?",
+          "content": "Necesitas la partida de matrimonio, no hace falta que sea actualizada, y copia de tu DNI.",
           "icon": "notes.svg"
         },
         {
-          "title": "Me pagan mitad en blanco y mitad en negro, ¿Puedo reclamar?",
-          "content": "Sí, todo lo que se cobra debe estar en blanco. Podés intimar a tu empleador a que corrija tu recibo. En caso que no lo haga, podés reclamar indemnizaciones y multas.",
+          "title": "¿Cuánto demora el trámite de divorcio?",
+          "content": "Actualmente es un trámite rápido que puede estar finalizado en uno o dos meses aproximadamente.   Por supuesto que el tiempo es estimativo ya que se depende del funcionamiento del Juzgado, y oficinas públicas.",
           "icon": "notes.svg"
         },
         {
-          "title": "Me despidieron hace varios meses, ¿Estoy a tiempo de reclamar?",
-          "content": "Desde el despido contás con dos años para iniciar el reclamo.",
+          "title": "¿Qué es el divorcio por presentación conjunta?",
+          "content": "Es el caso en que los cónyuges se ponen de acuerdo en los términos (distribución de bienes si los hay, cuidado de hijos si los hay, compensaciones económicas, etc.) y presentan la petición ante un Juez.  Cada uno debe estar representado por un abogado.  Este trámite es mucho más ágil y rápido.",
           "icon": "notes.svg"
         },
         {
-          "title": "¿Me puedo considerar despedido si no me pagan el sueldo?",
-          "content": "Sí, pagar el sueldo es la obligación principal del empleador, la falta de ello hace que el contrato de trabajo no pueda continuar.",
-          "icon": "notes.svg"
-        },
-        {
-          "title": "Me accidenté en el trabajo y mi empleador no hace la denuncia en la ART, ¿Puedo hacer algo?",
-          "content": "Si, podés hacer la denuncia del accidente vos mediante un telegrama.",
+          "title": "Mi cónyuge no quiere divorciarse, ¿Puedo hacerlo igual?",
+          "content": "Sí, basta con la petición de uno para que el Juez conceda el divorcio.",
           "icon": "notes.svg"
         }
       ]

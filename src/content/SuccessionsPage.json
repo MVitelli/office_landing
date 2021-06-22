@@ -1,4 +1,4 @@
-const SucesionesContent = {
+{
     "title": "Sucesiones",
     "content": "La sucesión es un trámite especial que tiene una carga emocional extra, por eso creemos que es de vital importancia brindarte un amplio asesoramiento y acompañarte durante todo el proceso. ENTREVISTA PREVIA: Consideramos muy importante escuchar a nuestros clientes, entender sus necesidades, dudas y preocupaciones a fin de poder explicar detalladamente el trámite a iniciar y brindar absoluta tranquilidad. INICIO DEL JUICIO: Una vez reunida la documentación requerida se procede a presentar la demanda en la jurisdicción correspondiente (Ciudad Autónoma de Buenos Aires o provincia de Buenos Aires). DECLARATORIA DE HEREDEROS: Es la resolución judicial en donde constan la o las personas que suceden a la persona fallecida en carácter de HEDEDERO/S. INSCRIPCIÓN EN LOS REGISTROS CORRESPONDIENTES: Una vez que el Juez declara judicialmente como herederos a quien o quienes correspondan, nos encargaremos de inscribir ese documento a fin que los bienes pasen a estas registrados a su nombre.",
     "faq": [
@@ -26,5 +26,3 @@ const SucesionesContent = {
     ],
     "tags": []
 }
-
-export default SucesionesContent;

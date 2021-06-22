@@ -1,7 +1,7 @@
 import { lazy } from "react";
 import FAQCollapse from "../../components/FAQCollapse";
 
-import DerechoLaboralContent from "../../content/DerechoLaboralContent.json";
+import DerechoLaboralContent from "../../content/JobLawPage.json";
 import ContactContent from "../../content/ContactContent.json";
 
 const ContactFrom = lazy(() => import("../../components/ContactForm"));

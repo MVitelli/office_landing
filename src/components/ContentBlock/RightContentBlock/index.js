@@ -7,7 +7,7 @@ import Button from "../../../common/Button";
 
 import * as S from "./styles";
 
-const RightBlock = ({ title, content, button, icon, t, id, style }) => {
+const RightBlock = ({ title, content, button, icon, t, id, style, link }) => {
   const scrollTo = (id) => {
     const element = document.getElementById(id);
     element.scrollIntoView({
@@ -27,14 +27,14 @@ const RightBlock = ({ title, content, button, icon, t, id, style }) => {
                   typeof button === "object" &&
                   button.map((item, id) => {
                     return (
-                      <Button
-                        key={id}
-                        color={item.color}
-                        width="true"
-                        onClick={() => scrollTo("about")}
-                      >
-                        {t(item.title)}
-                      </Button>
+                        <Button
+                          key={id}
+                          color={item.color}
+                          width="true"
+                          onClick={() => scrollTo("about")}
+                        >
+                          {t(item.title)}
+                        </Button>
                     );
                   })}
               </S.ButtonWrapper>

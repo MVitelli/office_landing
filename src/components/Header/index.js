@@ -64,7 +64,7 @@ const Header = ({ t }) => {
           </S.CustomNavLinkSmall>
         </Menu.Item>
         <Menu.Item>
-          <S.CustomNavLinkSmall onClick={() => scrollTo("trafficAccidents")}>
+          <S.CustomNavLinkSmall onClick={() => scrollTo("accidents")}>
             <S.Span>{t("Traffic accidents")}</S.Span>
           </S.CustomNavLinkSmall>
         </Menu.Item>
@@ -82,7 +82,7 @@ const Header = ({ t }) => {
             <S.Span>{t("Services")}</S.Span>
           </S.CustomNavLinkSmall>
         </Dropdown>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("FAQ")}>
+        <S.CustomNavLinkSmall onClick={() => scrollTo("jobLawFAQ")}>
           <S.Span>{t("FAQ")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall

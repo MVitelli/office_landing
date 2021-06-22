@@ -3,11 +3,10 @@ import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import JobLawContent from "../../content/JobLawContent.json";
-import MissionContent from "../../content/MissionContent.json";
-import ProductContent from "../../content/ProductContent.json";
-import ContactContent from "../../content/ContactContent.json";
+import AccidentsContent from "../../content/AccidentsContent.json";
+import SuccessionsContent from "../../content/SuccessionsContent.json"
 import DivorceContent from "../../content/DivorceContent.json";
-
+import ContactContent from "../../content/ContactContent.json";
 
 const TopicContainer = lazy(() => import("../../components/TopicBlock"));
 const ContactFrom = lazy(() => import("../../components/ContactForm"));
@@ -39,29 +38,14 @@ const Home = () => {
       <TopicContainer
         content={JobLawContent}
       />
-
-      <ContentBlock
-        type="right"
-        title={MissionContent.title}
-        content={MissionContent.text}
-        icon="product-launch.svg"
-        id="jobLaw"
+      <TopicContainer
+        content={SuccessionsContent}
       />
-
-      <ContentBlock
-        type="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
-        icon="waving.svg"
-        id="successions"
+      <TopicContainer
+        content={DivorceContent}
       />
-
-      <ContentBlock
-        type="right"
-        title={DivorceContent.title}
-        content={DivorceContent.text}
-        icon="product-launch.svg"
-        id="divorce"
+      <TopicContainer
+        content={AccidentsContent}
       />
 
       <ContactFrom

@@ -8,7 +8,7 @@ const TopicContainer = (props) => {
   const { content } = props;
   return (
     <>
-      <Tabs centered size="large" style={{ padding: "4rem 0 8rem" }}>
+      <Tabs centered size="large" style={{ padding: "2rem 0 2rem" }}>
         {content.map((tab, index) => {
           return (
             <TabPane tab={<span style={{ fontSize: "x-large" }}>{tab.title}</span>} key={index}>
@@ -19,7 +19,8 @@ const TopicContainer = (props) => {
                 section={tab.section}
                 icon={tab.icon}
                 id={tab.id}
-                style={{ "padding": "2rem 0 8rem" }}
+                {...tab}
+                style={{ "padding": "2rem 0 4rem" }}
               />
             </TabPane>
           )

@@ -1,15 +1,21 @@
 [
   {
     "title": "Derecho laboral",
-    "text": "",
+    "text": "Creemos que el trabajador merece una protección especial, es por eso que si: estás trabajando en negro, si te pagan parte de tu sueldo en negro, si te despidieron o tuviste un accidente de trabajo, contactanos para hacer valer tus derechos.",
     "icon": "second-image.png",
     "type": "right",
-    "id": "jobLaw"
+    "id": "jobLaw",
+    "link": "/temas/derecho-laboral",
+    "button": [
+      {
+        "title": "Ver más"
+      }
+    ]
   },
   {
     "title": "Preguntas Frecuentes",
     "type": "left",
-    "id":"jobLawFAQ",
+    "id": "jobLawFAQ",
     "icon": "second-image.png",
     "section": [
       {

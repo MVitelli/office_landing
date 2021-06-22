@@ -13,7 +13,7 @@ i18n
     lng: "es",
     fallbackLng: "es",
 
-    keySeparator: false,
+    keySeparator: ':',
     interpolation: {
       escapeValue: false,
     },
