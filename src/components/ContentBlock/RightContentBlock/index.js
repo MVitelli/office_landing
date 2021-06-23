@@ -6,14 +6,15 @@ import SvgIcon from "../../../common/SvgIcon";
 import Button from "../../../common/Button";
 
 import * as S from "./styles";
+import { Link } from "react-router-dom";
 
 const RightBlock = ({ title, content, button, icon, t, id, style, link }) => {
-  const scrollTo = (id) => {
-    const element = document.getElementById(id);
-    element.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
+  // const scrollTo = (id) => {
+  //   const element = document.getElementById(id);
+  //   element.scrollIntoView({
+  //     behavior: "smooth",
+  //   });
+  // };
   return (
     <S.RightBlockContainer style={style}>
       <Row type="flex" justify="space-between" align="middle" id={id}>
@@ -22,22 +23,23 @@ const RightBlock = ({ title, content, button, icon, t, id, style, link }) => {
             <S.ContentWrapper>
               <h6>{t(title)}</h6>
               <S.Content>{t(content)}</S.Content>
-              <S.ButtonWrapper>
-                {button &&
-                  typeof button === "object" &&
-                  button.map((item, id) => {
-                    return (
+              <Link to={link}>
+                <S.ButtonWrapper>
+                  {button &&
+                    typeof button === "object" &&
+                    button.map((item, id) => {
+                      return (
                         <Button
                           key={id}
                           color={item.color}
                           width="true"
-                          onClick={() => scrollTo("about")}
                         >
                           {t(item.title)}
                         </Button>
-                    );
-                  })}
-              </S.ButtonWrapper>
+                      );
+                    })}
+                </S.ButtonWrapper>
+              </Link>
             </S.ContentWrapper>
           </Slide>
         </Col>
