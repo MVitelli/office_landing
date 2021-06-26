@@ -17,7 +17,7 @@ const DerechoLaboral = () => {
         type="right"
         title={DerechoLaboralContent.title}
         content={DerechoLaboralContent.content}
-        icon="product-launch.svg"
+        icon="jobLaw-image.png"
         id="job_law"
       />
 

@@ -17,7 +17,7 @@ const Sucesiones = () => {
         type="right"
         title={SucesionesContent.title}
         content={SucesionesContent.content}
-        icon="product-launch.svg"
+        icon="successions-image.png"
         id="job_law"
       />
 

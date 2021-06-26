@@ -17,7 +17,7 @@ const AccidentesDeTransito = () => {
         type="right"
         title={AccidentesDeTransitoContent.title}
         content={AccidentesDeTransitoContent.content}
-        icon="product-launch.svg"
+        icon="accidents-image.png"
         id="job_law"
       />
 

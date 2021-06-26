@@ -17,7 +17,7 @@ const Divorcio = () => {
         type="right"
         title={DivorcioContent.title}
         content={DivorcioContent.content}
-        icon="product-launch.svg"
+        icon="divorce-image.png"
         id="job_law"
       />
 
