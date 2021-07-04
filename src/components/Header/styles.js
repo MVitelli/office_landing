@@ -96,6 +96,7 @@ export const Outline = styled(MenuOutlined)`
 
 export const Span = styled.span`
   cursor: pointer;
+  font-size: 1.1rem;
 `;
 
 export const HeaderContainer = styled.div`

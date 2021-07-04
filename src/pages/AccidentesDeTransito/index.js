@@ -4,7 +4,7 @@ import FAQCollapse from "../../components/FAQCollapse";
 import AccidentesDeTransitoContent from "../../content/AccidentsPage.json";
 import ContactContent from "../../content/ContactContent.json";
 
-const ContactFrom = lazy(() => import("../../components/ContactForm"));
+const ContactForm = lazy(() => import("../../components/ContactForm"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
@@ -23,7 +23,7 @@ const AccidentesDeTransito = () => {
 
       <FAQCollapse data={AccidentesDeTransitoContent}/>
     
-      <ContactFrom
+      <ContactForm
         title={ContactContent.title}
         content={ContactContent.text}
         id="contact"
