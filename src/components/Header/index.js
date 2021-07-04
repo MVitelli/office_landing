@@ -2,6 +2,7 @@ import { useState, Fragment, lazy } from "react";
 import { Row, Col, Drawer, Dropdown, Menu } from "antd";
 import { CSSTransition } from "react-transition-group";
 import { withTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 import * as S from "./styles";
 
@@ -49,24 +50,32 @@ const Header = ({ t }) => {
     const dropdown = (
       <Menu>
         <Menu.Item>
-          <S.CustomNavLinkSmall onClick={() => scrollTo("jobLaw")}>
-            <S.Span>{t("Job law")}</S.Span>
-          </S.CustomNavLinkSmall>
+          <Link to="/temas/derecho-laboral">
+            <S.CustomNavLinkSmall>
+              <S.Span>{t("Job law")}</S.Span>
+            </S.CustomNavLinkSmall>
+          </Link>
         </Menu.Item>
         <Menu.Item>
-          <S.CustomNavLinkSmall onClick={() => scrollTo("successions")}>
-            <S.Span>{t("Successions")}</S.Span>
-          </S.CustomNavLinkSmall>
+          <Link to="/temas/sucesiones">
+            <S.CustomNavLinkSmall>
+              <S.Span>{t("Successions")}</S.Span>
+            </S.CustomNavLinkSmall>
+          </Link>
         </Menu.Item>
         <Menu.Item>
-          <S.CustomNavLinkSmall onClick={() => scrollTo("divorce")}>
-            <S.Span>{t("Divorce")}</S.Span>
-          </S.CustomNavLinkSmall>
+          <Link to="/temas/divorcio">
+            <S.CustomNavLinkSmall>
+              <S.Span>{t("Divorce")}</S.Span>
+            </S.CustomNavLinkSmall>
+          </Link>
         </Menu.Item>
         <Menu.Item>
-          <S.CustomNavLinkSmall onClick={() => scrollTo("accidents")}>
-            <S.Span>{t("Traffic accidents")}</S.Span>
-          </S.CustomNavLinkSmall>
+          <Link to="/temas/accidentes">
+            <S.CustomNavLinkSmall>
+              <S.Span>{t("Traffic accidents")}</S.Span>
+            </S.CustomNavLinkSmall>
+          </Link>
         </Menu.Item>
       </Menu>
     );
@@ -74,17 +83,16 @@ const Header = ({ t }) => {
     return (
       <Fragment>
 
-        <S.CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <S.Span>{t("About")}</S.Span>
-        </S.CustomNavLinkSmall>
+        <Link to="/">
+          <S.CustomNavLinkSmall>
+            <S.Span>{t("About")}</S.Span>
+          </S.CustomNavLinkSmall>
+        </Link>
         <Dropdown overlay={dropdown}>
-          <S.CustomNavLinkSmall onClick={() => scrollTo("services")}>
+          <S.CustomNavLinkSmall>
             <S.Span>{t("Services")}</S.Span>
           </S.CustomNavLinkSmall>
         </Dropdown>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("jobLawFAQ")}>
-          <S.Span>{t("FAQ")}</S.Span>
-        </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall
           style={{ width: "150px" }}
           onClick={() => scrollTo("contact")}
