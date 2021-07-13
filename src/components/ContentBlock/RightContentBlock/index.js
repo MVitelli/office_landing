@@ -23,23 +23,25 @@ const RightBlock = ({ title, content, button, icon, t, id, style, link }) => {
             <S.ContentWrapper>
               <h6>{t(title)}</h6>
               <S.Content>{t(content)}</S.Content>
-              <Link to={link}>
-                <S.ButtonWrapper>
-                  {button &&
-                    typeof button === "object" &&
-                    button.map((item, id) => {
-                      return (
-                        <Button
-                          key={id}
-                          color={item.color}
-                          width="true"
-                        >
-                          {t(item.title)}
-                        </Button>
-                      );
-                    })}
-                </S.ButtonWrapper>
-              </Link>
+              {link &&
+                <Link to={link}>
+                  <S.ButtonWrapper>
+                    {button &&
+                      typeof button === "object" &&
+                      button.map((item, id) => {
+                        return (
+                          <Button
+                            key={id}
+                            color={item.color}
+                            width="true"
+                          >
+                            {t(item.title)}
+                          </Button>
+                        );
+                      })}
+                  </S.ButtonWrapper>
+                </Link>
+              }
             </S.ContentWrapper>
           </Slide>
         </Col>
